@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="priv.lyh.hts.entity.News" table="news" schema="hts_db">
+        <id name="newsId" column="news_id"/>
+        <property name="newsTitle" column="news_title"/>
+        <property name="newsDate" column="news_date"/>
+        <property name="newsType" column="news_type"/>
+        <property name="newsContent" column="news_content"/>
+    </class>
+</hibernate-mapping>
